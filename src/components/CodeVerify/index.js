@@ -10,6 +10,7 @@ export default class CodeVerify extends React.Component {
             codeInput: '',
             code: ''
         }
+        console.log('a1');
     }
     checkCode() {
         if(this.props.type == 1) {		//普通验证码
