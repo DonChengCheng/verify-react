@@ -28,6 +28,7 @@ export default class CodeVerify extends React.Component {
         console.log('a2');
     }
     setCode(){
+        console.log('a3');
         let code = '';
         this.code_chose = '';
         if(this.props.type == 1) {		//普通验证码
