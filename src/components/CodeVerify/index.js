@@ -25,6 +25,7 @@ export default class CodeVerify extends React.Component {
             this.options.error(this);
             this.setCode();
         }
+        console.log('a2');
     }
     setCode(){
         let code = '';
